@@ -13,3 +13,6 @@ def main(n):
 
 if __name__ == "__main__":
     main()
+
+if number < 0:
+  raise Exception("n should not a positive number")
